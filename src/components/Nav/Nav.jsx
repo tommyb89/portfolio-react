@@ -2,19 +2,14 @@ import React from "react";
 import "./Nav.scss";
 
 const Nav = () => {
-  const hamburger = document.querySelector(".hamburger");
-
-  hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("is-active");
-  });
-
   return (
-    <nav className="nav">
-      <ol className="nav__links">
+    <nav className="nav" id="overlay">
+      <ol className="nav__list">
         <li className="nav__item">
           <a className="nav__link" href="#top">
             Home.
           </a>
+          <span>lorem</span>
         </li>
         <li className="nav__item">
           <a className="nav__link" href="#work">
@@ -23,7 +18,7 @@ const Nav = () => {
         </li>
         <li className="nav__item">
           <a className="nav__link" href="#experience">
-            Experience.
+            About.
           </a>
         </li>
         <li className="nav__item">
@@ -32,9 +27,6 @@ const Nav = () => {
           </a>
         </li>
       </ol>
-      <button className="hamburger">
-        <div className="hamburger__bar"></div>
-      </button>
     </nav>
   );
 };

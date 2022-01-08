@@ -1,2 +1,3 @@
-@import "./assets/sass/reset";
-@use "../../assets/sass/variables.scss" as *;
+@use "./assets/sass/reset";
+@use "./assets/sass/variables" as *;
+@use "./assets/sass/typography" as *;

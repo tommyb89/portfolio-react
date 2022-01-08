@@ -1,13 +1,16 @@
+@use "../../assets/sass/_variables" as *;
+@use "../../assets/sass/_typography" as *;
+
 .nav {
-  display: none;
   min-height: 10vh;
-  background-color: #eeeeee;
+  background-color: $color-primary;
 
   h2 {
-    font-family: "Fredericka the Great", cursive;
-    color: white;
+    font-family: $font-primary;
+    color: $color-secondary;
   }
-  &__links {
+
+  &__list {
     display: flex;
     list-style: none;
     list-style-type: decimal-leading-zero;

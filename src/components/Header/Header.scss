@@ -1,0 +1,10 @@
+@use "../../assets/sass/_variables" as *;
+@use "../../assets/sass/_typography" as *;
+
+header {
+  padding: 2em;
+}
+.logo {
+  font-weight: bold;
+  color: black;
+}
