@@ -3,31 +3,31 @@ import "./Nav.scss";
 
 const Nav = () => {
   return (
-    <nav class="nav">
-      <ol class="nav__links">
-        <li class="nav__item">
-          <a class="nav__link" href="#top">
+    <nav className="nav">
+      <ol className="nav__links">
+        <li className="nav__item">
+          <a className="nav__link" href="#top">
             Home.
           </a>
         </li>
-        <li class="nav__item">
-          <a class="nav__link" href="#work">
+        <li className="nav__item">
+          <a className="nav__link" href="#work">
             Work.
           </a>
         </li>
-        <li class="nav__item">
-          <a class="nav__link" href="#experience">
+        <li className="nav__item">
+          <a className="nav__link" href="#experience">
             Experience.
           </a>
         </li>
-        <li class="nav__item">
-          <a class="nav__link" href="#contact">
+        <li className="nav__item">
+          <a className="nav__link" href="#contact">
             Contact.
           </a>
         </li>
       </ol>
-      <button class="hamburger">
-        <div class="hamburger__bar"></div>
+      <button className="hamburger">
+        <div className="hamburger__bar"></div>
       </button>
     </nav>
   );
