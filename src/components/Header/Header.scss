@@ -1,10 +1,30 @@
 @use "../../assets/sass/_variables" as *;
 @use "../../assets/sass/_typography" as *;
 
-header {
-  padding: 2em;
-}
-.logo {
-  font-weight: bold;
-  color: black;
+.header {
+  padding: 6em 2em;
+  height: calc(100vh - 6em);
+  width: calc(100%);
+
+  &__heading {
+    font-size: 4.25rem;
+    color: rgb(180, 69, 69);
+  }
+  .grey {
+    color: rgb(180, 69, 69);
+  }
+
+  &__subheading {
+    font-family: $font-primary;
+    font-style: italic;
+    margin-top: 0.5em;
+    font-size: 2rem;
+    color: rgb(195, 195, 195);
+  }
+
+  .buttons-container {
+    margin-top: 2em;
+    display: flex;
+    gap: 10px;
+  }
 }

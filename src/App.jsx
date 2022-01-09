@@ -1,14 +1,14 @@
 import "./App.scss";
 import Nav from "./components/Nav/Nav";
 import Header from "./components/Header/Header";
-import Works from "./components/Works/Works";
+import Work from "./components/Work/Work";
 
 function App() {
   return (
     <div className="App">
       <Nav />
       <Header />
-      <Works />
+      <Work />
     </div>
   );
 }

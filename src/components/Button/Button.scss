@@ -1,0 +1,26 @@
+@use "../../assets/sass/_variables" as *;
+@use "../../assets/sass/_typography" as *;
+
+.btn {
+  font-family: $font-secondary;
+
+  justify-content: center;
+  width: 100%;
+  padding: 10px 15px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #ebebebb6;
+  background: rgba(119, 119, 119, 0.219);
+  border: 3px solid #c36f55;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+.btn2 {
+  background-color: rgb(104, 159, 168);
+}

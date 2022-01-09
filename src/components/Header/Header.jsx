@@ -1,24 +1,24 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Header.scss";
+import Button from "./../Button/Button";
 
 const Header = () => {
-  const [isActive, setActive] = useState("false");
-
-  const handleToggle = () => {
-    setActive(!isActive);
-  };
-
   return (
-    <header>
-      <a className="logo" href="/">
-        mysite
-      </a>
-      <button
-        className={isActive ? "hamburger" : "hamburger is-active"}
-        onClick={handleToggle}
-      >
-        <div className="hamburger__bar"></div>
-      </button>
+    <header className="header">
+      <h1 className="header__heading">
+        <span className="">
+          HELLO <br />
+          I'M
+        </span>
+        <br />
+        TOM
+      </h1>
+      <p className="header__subheading">a front-end developer</p>
+
+      <div className="buttons-container">
+        <Button name="PROJECTS" path="#works" btnStyle="btn" />
+        <Button name="CONTACT" path="#contact" btnStyle="btn btn2" />
+      </div>
     </header>
   );
 };
