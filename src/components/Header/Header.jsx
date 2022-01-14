@@ -17,7 +17,6 @@ const Header = () => {
 
       <div className="buttons-container">
         <Button name="PROJECTS" path="#works" btnStyle="btn" />
-        <Button name="CONTACT" path="#contact" btnStyle="btn btn2" />
       </div>
     </header>
   );
