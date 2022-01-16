@@ -2,29 +2,25 @@
 @use "../../assets/sass/_typography" as *;
 
 .header {
-  padding: 6em 2em;
+  display: flex;
+  flex-direction: column;
+
+  padding: 10rem 2rem;
+  gap: 2rem;
   height: calc(100vh - 6em);
   width: calc(100%);
 
   &__heading {
-    font-size: 4.25rem;
-    color: rgb(180, 69, 69);
-  }
-  .grey {
-    color: rgb(180, 69, 69);
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.2rem;
   }
 
   &__subheading {
     font-family: $font-primary;
     font-style: italic;
-    margin-top: 0.5em;
-    font-size: 2rem;
+    font-size: 1.4rem;
     color: rgb(195, 195, 195);
-  }
-
-  .buttons-container {
-    margin-top: 2em;
-    display: flex;
-    gap: 10px;
   }
 }

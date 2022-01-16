@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Hamburger from "../Hamburger/Hamburger";
 
 import "./Nav.scss";
 
@@ -17,12 +18,7 @@ const Nav = () => {
           mysite
         </a>
 
-        <label htmlFor="check" onChange={handleToggle}>
-          <input type="checkbox" id="check" className="hamburger" />
-          <span></span>
-          <span></span>
-          <span></span>
-        </label>
+        <Hamburger onChange={handleToggle} />
       </div>
 
       <ul className={isActive ? "nav__list" : "nav__list show"}>

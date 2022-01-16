@@ -3,10 +3,5 @@
 @use "./assets/sass/typography" as *;
 
 body {
-  width: 100vw;
-  background-color: $color-primary;
-}
-
-.header {
-  width: 20%;
+  width: 100%;
 }
