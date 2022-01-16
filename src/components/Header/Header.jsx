@@ -15,9 +15,7 @@ const Header = () => {
       </h1>
       <p className="header__subheading">a front-end developer</p>
 
-      <div className="buttons-container">
-        <Button name="PROJECTS" path="#works" btnStyle="btn" />
-      </div>
+      <Button name="PROJECTS" path="#works" btnStyle="btn" />
     </header>
   );
 };
