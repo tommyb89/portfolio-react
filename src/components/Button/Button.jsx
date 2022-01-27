@@ -1,13 +1,14 @@
 import React from "react";
 import "./Button.scss";
+import { Link } from "react-router-dom";
 
 const Button = (props) => {
   const { name, path, btnStyle } = props;
 
   return (
-    <a href={path} className={btnStyle}>
+    <Link to={path} className={btnStyle}>
       {name}
-    </a>
+    </Link>
   );
 };
 

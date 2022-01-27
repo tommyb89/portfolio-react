@@ -10,7 +10,7 @@ const Card = (props) => {
       <h2 className="project__title">{name}</h2>
       <p className="project__intro">{description}</p>
       {stack.map((x, i) => (
-        <span key={"index" + i}>{x}</span>
+        <img src={x} key={"index" + i} alt="" />
       ))}
       <a href={code}>github</a>
       <a href={live}>live site</a>

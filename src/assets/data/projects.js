@@ -47,7 +47,7 @@ const projects = [
 
     heading: "Ticket Tracker App",
     text: "Do nostrud sint enim velit. Non qui consequat ex consequat deserunt id nulla elit irure id adipisicing pariatur cillum ex. Laborum in occaecat aute est officia magna ex consequat ut. Pariatur nisi incididunt ad cillum minim aliquip. Commodo velit aute quis irure laborum mollit sit. Consequat elit amet est Lorem pariatur culpa officia sunt tempor.",
-    stack: ["JS", "SASS"],
+    stack: ["sass.png", "SASS"],
   },
   {
     id: "4",
