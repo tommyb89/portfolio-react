@@ -2,8 +2,9 @@
 @use "../../assets/sass/_typography" as *;
 
 .nav {
+  height: 10vh;
+  padding: 1rem;
   &__wrapper {
-    padding: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +24,6 @@
   }
 
   &__list {
-    // display: none;
     width: 0;
     height: 100%;
     position: fixed;

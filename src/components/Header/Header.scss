@@ -4,23 +4,47 @@
 .header {
   display: flex;
   flex-direction: column;
-
-  padding: 10rem 2rem;
-  gap: 2rem;
-  height: calc(100vh - 6em);
-  width: calc(100%);
+  padding: 2rem;
+  height: 100vh;
 
   &__heading {
-    font-size: 3.5rem;
-    font-weight: 500;
-    color: rgb(0, 0, 0);
-    letter-spacing: 0.2rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.1rem;
+    line-height: 1.25;
+    font-weight: 400;
+    font-family: $font-secondary;
+
+    &--small {
+      font-size: 1.4rem;
+      color: rgba(148, 148, 149);
+    }
   }
 
   &__subheading {
+    margin-top: 1rem;
+
     font-family: $font-primary;
-    font-style: italic;
-    font-size: 1.4rem;
-    color: rgb(195, 195, 195);
+    font-size: 0.85rem;
+    line-height: 2;
+    color: rgba(148, 148, 148);
+  }
+
+  &__link {
+    color: #fff;
+    padding: 0 0.2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header {
+    margin: 0 15rem;
+    &__heading {
+      font-size: 5rem;
+      &--small {
+        // font-size: 3rem;
+      }
+    }
+
+    &__subheading {
+    }
   }
 }
