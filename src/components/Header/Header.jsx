@@ -1,12 +1,7 @@
 import React from "react";
 import "./Header.scss";
-
 import Profile from "../Profile/Profile";
-// import Button from "./../Button/Button";
-
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
-// import { faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { FaRegArrowAltCircleDown as Arrow } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -28,6 +23,11 @@ const Header = () => {
           </p>
         </div>
         <Profile />
+
+        <div className="header__scroll-to">
+          scroll
+          <Arrow className="header__scroll-to--arrow" />
+        </div>
       </div>
     </header>
   );

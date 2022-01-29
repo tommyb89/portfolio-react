@@ -4,8 +4,9 @@
 .header {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 4rem 2rem 0;
   height: 100vh;
+  position: relative;
 
   &__heading {
     color: rgb(255, 255, 255);
@@ -33,7 +34,23 @@
     color: #fff;
     padding: 0 0.2rem;
   }
+
+  &__scroll-to {
+    color: rgb(148, 148, 148);
+    position: absolute;
+    bottom: 1rem;
+    left: calc(50% - 2rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.7rem;
+
+    &--arrow {
+      margin-left: 0.3rem;
+    }
+  }
 }
+
 @media screen and (min-width: 768px) {
   .header {
     margin: 0 15rem;
