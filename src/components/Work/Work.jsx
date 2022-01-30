@@ -10,6 +10,7 @@ const Work = () => {
       <section className="portfolio__container">
         {projects.map((project, i) => (
           <Card
+            className="portfolio__card"
             key={"index " + i}
             heading={project.name}
             description={project.text}
