@@ -25,11 +25,6 @@ const Header = () => {
         <div className="header__profile">
           <Profile />
         </div>
-
-        <div className="header__scroll-to">
-          scroll
-          <Arrow className="header__scroll-to--arrow" />
-        </div>
       </div>
     </header>
   );
