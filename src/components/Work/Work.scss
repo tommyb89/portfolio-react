@@ -1,14 +1,24 @@
 @use "../../assets/sass/variables" as *;
 
 .portfolio {
+  margin-top: 2rem;
   height: 100vh;
 
   &__heading {
-    font-size: 2rem;
-    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    color: #e2e8f0;
+
+    &::before {
+      content: "02 -";
+      margin-right: 0.2rem;
+
+      width: 2rem;
+      font-size: 0.8rem;
+    }
   }
 
   &__container {
+    margin-top: 1rem;
     display: grid;
     justify-content: center;
     gap: 1rem;

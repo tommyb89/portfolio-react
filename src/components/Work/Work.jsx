@@ -6,8 +6,7 @@ import projects from "../../assets/data/projects";
 const Work = () => {
   return (
     <section className="portfolio" id="work">
-      <h2 className="portfolio__heading">My projects</h2>
-      <i class="fal fa-user"></i>
+      <h2 className="portfolio__heading">PROJECTS</h2>
       <section className="portfolio__container">
         {projects.map((project, i) => (
           <Card

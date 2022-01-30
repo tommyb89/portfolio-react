@@ -2,18 +2,64 @@
 @use "../../assets/sass/_typography" as *;
 
 .project {
-  padding: 1rem;
-  height: 30rem;
-  border-radius: 1rem;
-  margin: 0 auto;
-  background-color: rgb(204, 230, 255);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #202022;
+  gap: 0.8rem;
 
   &__img {
     width: 100px;
+    display: none;
+  }
+
+  &__heading {
+    color: #e2e8f0;
+    font-size: 1.5rem;
+  }
+
+  &__intro {
+    color: #949495;
+    font-size: 0.875rem;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__link {
+    color: #e2e8f0;
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+  }
+
+  &__wrapper {
+    color: #c0c0c0;
+    display: flex;
   }
 
   &__stack {
-    padding-right: 5px;
-    border: 2px solid black;
+    font-size: 0.8rem;
+    margin-right: 2px;
+
+    &::after {
+      content: "   /";
+    }
+
+    &:last-child::after {
+      content: "";
+    }
   }
 }
+
+// #e2e8f0
+//#151515
+//#949495

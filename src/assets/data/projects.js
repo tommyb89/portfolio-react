@@ -2,19 +2,29 @@
 const projects = [
   {
     id: "1",
+    name: "OAE Client Project",
+    text: "Group client project build with React. Developed in weekly sprints over 5 weeks period.",
+    imgSrc:
+      "https://oae.co.uk/wp-content/uploads/2021/07/MicrosoftTeams-image-5-1250x825.jpg",
+    imageAlt: "OAE application",
+    code: "https://github.com/nology-tech/oae-event-programme",
+    liveSite: "https://tommyb89.github.io/",
+    stack: ["JavaScript", "Sass", "React", "Java"],
+  },
+  {
+    id: "2",
     name: "Calculator",
     imgSrc:
       "https://oae.co.uk/wp-content/uploads/2021/07/MicrosoftTeams-image-5-1250x825.jpg",
-    imageAlt: "Calculator desing",
+    imageAlt: "Calculator",
     code: "https://github.com/tommyb89/calculator",
     liveSite: "https://tommyb89.github.io/calculator/",
-    heading: "Calculator made with vanilla JavaScript and SASS",
     text: "A simple Calculator made with vanilla JavaScript. During this project I've learned about DOM manipulation and E2E testing with Cypress. ",
     stack: ["JS", "Sass", "Cypress"],
   },
   {
-    id: "2",
-    name: "Punk API",
+    id: "3",
+    name: "Punk Beer Catalogue",
     text: "Cool little app that displays beers fetched from a Brewdog API. User can search beers by the name, acidity, classic or abv > 6%",
     imgSrc:
       "https://oae.co.uk/wp-content/uploads/2021/07/MicrosoftTeams-image-5-1250x825.jpg",
@@ -25,7 +35,7 @@ const projects = [
     stack: ["JavaScript", "Sass", "React"],
   },
   {
-    id: "3",
+    id: "4",
     name: "Morse Code Translator",
     text: "Go ahead and translate words from English to Morse and other way around!",
     imgSrc:
@@ -36,7 +46,7 @@ const projects = [
     stack: ["JavaScript", "Sass", "Jest"],
   },
   {
-    id: "4",
+    id: "5",
     name: "Ticket Tracker",
     text: "App that allows you to increment and decrement count of tickets for each employee. A good usage of props, reusable components and useState. ",
     imgSrc:
@@ -47,15 +57,26 @@ const projects = [
     stack: ["React", "JavaScript", "Sass"],
   },
   {
-    id: "4",
-    name: "Ticket Tracker",
-    text: "Do nostrud sint enim velit. Non qui consequat ex consequat deserunt id nulla elit irure id adipisicing pariatur cillum ex. Laborum in occaecat aute est officia magna ex consequat ut. Pariatur nisi incididunt ad cillum minim aliquip. Commodo velit aute quis irure laborum mollit sit. Consequat elit amet est Lorem pariatur culpa officia sunt tempor.",
+    id: "6",
+    name: "2048 Game",
+    text: "Remake of popular puzzle game 2048. Player has to reach 2048 by joinin squares of the same value. Made with Vanilla JavaScript and CSS",
     imgSrc:
       "https://oae.co.uk/wp-content/uploads/2021/07/MicrosoftTeams-image-5-1250x825.jpg",
-    imageAlt: "Ticket tracker Application",
+    imageAlt: "2048 Game",
     code: "github",
     liveSite: "https://tommyb89.github.io/",
-    stack: ["React", "JavaScript", "Sass"],
+    stack: ["JavaScript", "Sass"],
+  },
+  {
+    id: "7",
+    name: "2048 Game",
+    text: "Remake of popular puzzle game 2048. Player has to reach 2048 by joinin squares of the same value. Made with Vanilla JavaScript and CSS",
+    imgSrc:
+      "https://oae.co.uk/wp-content/uploads/2021/07/MicrosoftTeams-image-5-1250x825.jpg",
+    imageAlt: "2048 Game",
+    code: "github",
+    liveSite: "https://tommyb89.github.io/",
+    stack: ["JavaScript", "Sass"],
   },
 ];
 
