@@ -1,11 +1,7 @@
 import React from "react";
 import "./Profile.scss";
 import me from "../../assets/images/me1.jpg";
-import {
-  FaLinkedin,
-  FaGithub,
-  FaRegArrowAltCircleDown as ArrowDown,
-} from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Profile = () => {
   return (

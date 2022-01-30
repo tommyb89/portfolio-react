@@ -7,13 +7,13 @@ const Work = () => {
   return (
     <section className="portfolio" id="work">
       <h2 className="portfolio__heading">My projects</h2>
+      <i class="fal fa-user"></i>
       <section className="portfolio__container">
         {projects.map((project, i) => (
           <Card
             key={"index " + i}
-            name={project.name}
-            heading={project.heading}
-            description={project.description}
+            heading={project.name}
+            description={project.text}
             img={project.imgSrc}
             code={project.code}
             live={project.liveSite}
