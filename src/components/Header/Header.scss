@@ -69,20 +69,10 @@
       width: 90%;
       margin-top: 3rem;
       font-size: 1rem;
-      // line-height: 2.5;
     }
 
     &__link:hover {
       color: rgba(148, 148, 148);
-    }
-
-    &__profile {
-      position: absolute;
-      bottom: 3rem;
-    }
-
-    &__scroll-to {
-      display: none;
     }
   }
 }

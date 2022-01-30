@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.scss";
+import Nav from "../Nav/Nav";
 import Profile from "../Profile/Profile";
-import { FaRegArrowAltCircleDown as Arrow } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -22,6 +22,8 @@ const Header = () => {
             <strong> UX/UI design</strong> and creating useful apps for the web.
           </p>
         </div>
+
+        <Nav />
         <div className="header__profile">
           <Profile />
         </div>

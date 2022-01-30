@@ -67,17 +67,6 @@ const projects = [
     liveSite: "https://tommyb89.github.io/",
     stack: ["JavaScript", "Sass"],
   },
-  {
-    id: "7",
-    name: "2048 Game",
-    text: "Remake of popular puzzle game 2048. Player has to reach 2048 by joinin squares of the same value. Made with Vanilla JavaScript and CSS",
-    imgSrc:
-      "https://oae.co.uk/wp-content/uploads/2021/07/MicrosoftTeams-image-5-1250x825.jpg",
-    imageAlt: "2048 Game",
-    code: "github",
-    liveSite: "https://tommyb89.github.io/",
-    stack: ["JavaScript", "Sass"],
-  },
 ];
 
 export default projects;
