@@ -5,7 +5,6 @@ import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
 const Card = (props) => {
   const { heading, description, stack, live, code, img } = props;
 
-  console.log(stack);
   return (
     <article className="project">
       <img src={img} alt="" className="project__img" />
@@ -22,8 +21,10 @@ const Card = (props) => {
       </div>
 
       <div className="project__wrapper">
-        {stack.map((x) => (
-          <div className="project__stack">{x}</div>
+        {stack.map((x, i) => (
+          <div className="project__stack" key={"index" + i}>
+            {x}
+          </div>
         ))}
       </div>
     </article>

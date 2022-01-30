@@ -38,7 +38,7 @@
   &__scroll-to {
     color: rgb(148, 148, 148);
     position: absolute;
-    bottom: 1rem;
+    bottom: 2rem;
     left: calc(50% - 2rem);
     display: flex;
     justify-content: center;
@@ -53,9 +53,8 @@
 
 @media screen and (min-width: 768px) {
   .header {
-    width: 40%;
+    width: 50%;
     float: left;
-    padding: 5rem 4rem;
     position: fixed;
 
     &__heading {
