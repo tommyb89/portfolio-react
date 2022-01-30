@@ -28,12 +28,25 @@
     transition: 0.3s;
 
     &:hover {
-      color: rgba(148, 148, 148);
+      color: #949495;
     }
   }
 
   &__icon {
     font-size: 1.2rem;
     margin-left: 0.2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .profile {
+    &__img {
+      height: 4rem;
+      width: 4rem;
+    }
+
+    &__link {
+      font-size: 1rem;
+    }
   }
 }

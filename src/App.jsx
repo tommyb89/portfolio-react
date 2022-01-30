@@ -1,5 +1,4 @@
 import "./App.scss";
-import Nav from "./components/Nav/Nav";
 import Header from "./components/Header/Header";
 import Work from "./components/Work/Work";
 import { BrowserRouter as Router } from "react-router-dom";
@@ -14,12 +13,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* <Nav /> */}
-
         <Header />
         <Work />
-        {/* <Route path="/about" element={<About />}></Route>
-          <Route path="/contact" element={<Contact />}></Route> */}
       </div>
     </Router>
   );

@@ -22,7 +22,9 @@ const Header = () => {
             <strong> UX/UI design</strong> and creating useful apps for the web.
           </p>
         </div>
-        <Profile />
+        <div className="header__profile">
+          <Profile />
+        </div>
 
         <div className="header__scroll-to">
           scroll
