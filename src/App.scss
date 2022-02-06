@@ -3,5 +3,11 @@
 @use "./assets/sass/typography" as *;
 
 body {
-  padding: 0 2rem;
+  padding: 0 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    padding: 0 5rem;
+  }
 }

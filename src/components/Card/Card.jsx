@@ -3,11 +3,10 @@ import "./Card.scss";
 import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
 
 const Card = (props) => {
-  const { heading, description, stack, live, code, img } = props;
+  const { heading, description, stack, live, code } = props;
 
   return (
     <article className="project">
-      <img src={img} alt="" className="project__img" />
       <h4 className="project__heading">{heading}</h4>
       <p className="project__intro">{description}</p>
 

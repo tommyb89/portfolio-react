@@ -8,8 +8,8 @@ const Header = () => {
     <header className="header">
       <div className="header__hero">
         <h1 className="header__heading">
-          <span className="header__heading--small">Hello, I'm </span>Tomasz
-          Bielasik
+          <span className="header__heading--small">Hello, I'm </span> <br />
+          Tomasz Bielasik
         </h1>
         <div className="header__description">
           <p className="header__subheading">

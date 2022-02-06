@@ -14,7 +14,6 @@ const Work = () => {
             key={"index " + i}
             heading={project.name}
             description={project.text}
-            img={project.imgSrc}
             code={project.code}
             live={project.liveSite}
             stack={project.stack}

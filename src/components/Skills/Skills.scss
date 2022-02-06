@@ -1,5 +1,6 @@
 .skills {
-  height: 100%;
+  margin-top: 2rem;
+  height: 50vh;
   color: white;
 
   &__heading {
@@ -18,7 +19,7 @@
   &__list {
     margin-top: 1rem;
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 0.5rem;
   }
 
@@ -34,11 +35,24 @@
 @media screen and (min-width: 768px) {
   .skills {
     &__heading {
+      font-size: 1rem;
+      color: #e2e8f0;
     }
+
     &__list {
       margin-top: 1rem;
       display: grid;
-      grid-template-columns: 60px, 20px;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid: wrap;
+      gap: 0.5rem;
+    }
+
+    &__item {
+      background-color: rgb(37, 37, 37);
+
+      padding: 0.4rem;
+      border-radius: 0.15rem;
+      text-align: center;
     }
   }
 }
