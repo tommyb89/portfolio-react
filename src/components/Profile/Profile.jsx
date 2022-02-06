@@ -1,7 +1,7 @@
 import React from "react";
 import "./Profile.scss";
 import me from "../../assets/images/me1.jpg";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaPaperPlane } from "react-icons/fa";
 
 const Profile = () => {
   return (
@@ -20,6 +20,12 @@ const Profile = () => {
           <a className="profile__link" href="https://github.com/tommyb89">
             Github
             <FaGithub className="profile__icon" />
+          </a>
+        </li>
+        <li className="profile__item">
+          <a className="profile__link" href="mailto:tomasz.bielasik@gmail.com">
+            Message Me
+            <FaPaperPlane className="profile__icon" />
           </a>
         </li>
       </ul>
