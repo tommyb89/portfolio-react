@@ -14,12 +14,15 @@ const Header = () => {
         <div className="header__description">
           <p className="header__subheading">
             I'm a London based <strong>junior software developer. </strong>I
-            have recenlty completed a 12-week intensive full-stack course with
+            have recently completed a 12-week intensive full-stack course with
             <a className="header__link" href="https://nology.io/">
               _nology.
             </a>
-            I have a passion for
-            <strong> UX/UI design</strong> and creating useful apps for the web.
+            <br />
+            <u>I love... </u>
+            <br />- coding in <strong> React </strong>
+            <br />- creating awesome <strong>UX/UI </strong>design
+            <br />- reading about programming and improving my skills
           </p>
         </div>
 

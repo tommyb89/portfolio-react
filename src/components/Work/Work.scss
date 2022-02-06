@@ -1,8 +1,7 @@
 @use "../../assets/sass/variables" as *;
 
 .portfolio {
-  margin-top: 2rem;
-  height: 100vh;
+  height: 100%;
 
   &__heading {
     font-size: 1rem;
@@ -28,9 +27,6 @@
 
 @media screen and (min-width: 768px) {
   .portfolio {
-    width: 45%;
-    float: right;
-
     &__heading {
     }
 

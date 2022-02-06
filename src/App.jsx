@@ -1,6 +1,6 @@
 import "./App.scss";
 import Header from "./components/Header/Header";
-import Work from "./components/Work/Work";
+import Main from "./containers/Main";
 import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
@@ -8,8 +8,7 @@ function App() {
     <Router>
       <div className="app">
         <Header />
-        <Work />
-        <Experience />
+        <Main />
       </div>
     </Router>
   );
